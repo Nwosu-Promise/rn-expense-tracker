@@ -456,6 +456,9 @@ const Home = props => {
     );
   }
 
+  const man = () => {
+    console.log('Jesus i someone to shout about');
+  };
   function renderIncomingExpenses() {
     let allExpenses = selectedCategory ? selectedCategory.expenses : [];
     // filter pending expenses
